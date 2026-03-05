@@ -137,6 +137,7 @@ button {
 .data {
   display: block;
   text-align: end;
+  margin-top: 1em;
 }
 /* FOOTER */
 footer {
