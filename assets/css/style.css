@@ -15,13 +15,28 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-p {
-  margin: 1.3em 0 1.3em 0;
-}
 
 b {
   font-weight: 600;
 }
+
+h2 {
+  margin: 1.5em 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgba(53, 48, 53);
+  text-align: center;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+a {
+  color: #009ec9;
+  font-weight: 500;
+}
+
 /* HEADER */
 header {
   background: linear-gradient(
@@ -66,16 +81,58 @@ main > section > h1 {
 }
 
 main > section > p > b {
-  color: rgba(148, 75, 106);
+  color: #a61e4d;
+}
+.mini-box {
+  border: 1.5px solid #c0c0c0;
+  border-radius: 6px;
 }
 
-strong {
-  border-color: black;
+iframe {
+  width: 100%;
+  height: 12em;
+  border-radius: 30px;
+  margin-bottom: 2em;
 }
+
 /* TABELLE */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+th {
+  background-color: #436dbb;
+  color: white;
+  border: 1px solid white;
+}
+
+th,
+td {
+  text-align: center;
+  vertical-align: middle;
+  height: 3.5em;
+}
 /* FORM */
-
+input {
+  width: 69%;
+  border: none;
+  border-bottom: 0.1px dashed;
+}
+button {
+  background-color: #436dbb;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 3px 8px;
+}
 /* ELEMENTI NELL' ASIDE */
-
+.articoli-ex p {
+  border: 1px solid #c0c0c0;
+  padding: 1em;
+}
+.data {
+  display: block;
+  text-align: end;
+}
 /* FOOTER */
