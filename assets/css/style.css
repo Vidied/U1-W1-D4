@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   text-align: center;
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -69,6 +69,9 @@ main {
   background-color: white;
   padding: 1em;
   text-align: start;
+  border: 1.5px solid #c0c0c0;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7);
+  margin-bottom: 1.5em;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 main > section > h1 {
@@ -136,3 +139,17 @@ button {
   text-align: end;
 }
 /* FOOTER */
+footer {
+  background: linear-gradient(
+    180deg,
+    rgba(4, 162, 202, 1) 50%,
+    rgba(6, 109, 135, 1) 100%
+  );
+  color: white;
+  padding: 1em;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+address a {
+  color: rgba(255, 3, 243);
+}
