@@ -45,7 +45,7 @@ header {
     rgba(6, 109, 135, 1) 100%
   );
   font-weight: 500;
-  padding: 40px 0;
+  padding: 40px 0 20px 0;
   margin-bottom: 1.5em;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,7 @@ header {
 header li {
   list-style: none;
   text-align: center;
+  pad
 }
 
 header ul {
