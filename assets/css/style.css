@@ -111,6 +111,7 @@ iframe {
 table {
   border-collapse: collapse;
   width: 100%;
+  border-bottom: 1.5px solid #436dbb;
 }
 
 th {
