@@ -1,0 +1,81 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-image: url(../img/sfondo.png);
+  background-size: 450px auto;
+  background-repeat: repeat-y;
+  background-position: center top;
+  width: 450px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  margin: 1.3em 0 1.3em 0;
+}
+
+b {
+  font-weight: 600;
+}
+/* HEADER */
+header {
+  background: linear-gradient(
+    180deg,
+    rgba(4, 162, 202, 1) 50%,
+    rgba(6, 109, 135, 1) 100%
+  );
+  font-weight: 500;
+  padding: 40px 0;
+  margin-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+header img {
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+header p {
+  margin: 1em 0 1em 0;
+}
+
+/* MAIN */
+main {
+  background-color: white;
+  padding: 1em;
+  text-align: start;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+main > section > h1 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.author {
+  margin: 0.5em 0 0.5em 0;
+  color: grey;
+}
+
+main > section > p > b {
+  color: rgba(148, 75, 106);
+}
+
+strong {
+  border-color: black;
+}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
