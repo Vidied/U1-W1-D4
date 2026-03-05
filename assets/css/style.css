@@ -55,6 +55,15 @@ header {
   color: white;
 }
 
+header li {
+  list-style: none;
+  text-align: center;
+}
+
+header ul {
+  padding: 0;
+}
+
 header img {
   width: 70%;
   margin-bottom: 1em;
